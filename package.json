@@ -1,23 +1,23 @@
 {
-  "name": "stopwords-hr",
+  "name": "stopwords-sr",
   "version": "0.1.0",
-  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
-  "description": "The most comprehensive collection of stopwords for the croatian language.",
+  "author": "Strana (eng. Page) <zcprog+github@pm.me>",
+  "description": "The most comprehensive collection of stopwords for the Serbian language.",
   "keywords": [
-    "croatian",
+    "serbian",
     "stopwords",
     "stop words"
   ],
   "license": "MIT",
-  "repository": "git://github.com/stopwords-iso/stopwords-hr",
-  "bugs": "https://github.com/stopwords-iso/stopwords-hr/issues",
-  "main": "stopwords-hr.json",
+  "repository": "git://github.com/stopwords-iso/stopwords-sr",
+  "bugs": "https://github.com/stopwords-iso/stopwords-sr/issues",
+  "main": "stopwords-sr.json",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "build": "stopwords-collator -s raw -o stopwords-hr",
-    "test": "npm run build && jsonlint stopwords-hr.json -q"
+    "build": "stopwords-collator -s raw -o stopwords-sr",
+    "test": "npm run build && jsonlint stopwords-sr.json -q"
   },
   "devDependencies": {
     "stopwords-collator": "*",

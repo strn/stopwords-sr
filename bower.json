@@ -1,17 +1,17 @@
 {
-  "name": "stopwords-hr",
-  "description": "The most comprehensive collection of stopwords for the croatian language.",
+  "name": "stopwords-sr",
+  "description": "The most comprehensive collection of stopwords for the Serbian language.",
   "keywords": [
-    "croatian",
+    "serbian",
     "stopwords",
     "stop words"
   ],
-  "homepage": "https://github.com/stopwords-iso/stopwords-hr",
+  "homepage": "https://github.com/stopwords-iso/stopwords-sr",
   "authors": [
-    "Gene Diaz <genediazjr@gmail.com>"
+    "Strana (eng. Page) <zcprog+github@pm.me>"
   ],
   "license": "MIT",
-  "main": "stopwords-hr.json",
+  "main": "stopwords-sr.json",
   "ignore": [
     "**/.*",
     "raw",
